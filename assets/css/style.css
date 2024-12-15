@@ -1,0 +1,21 @@
+* {
+    font-family: "Lora", serif
+}
+.jumbotron {
+    position: relative;
+    color: white; /* Warna teks */
+    text-align: center; /* Pusatkan teks */
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+.jumbotron img {
+    width: 100%; /* Gambar responsif */
+    height: auto; /* Menjaga rasio aspek gambar */
+}
+.overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Pusatkan overlay */
+    text-align: center; /* Pusatkan teks dalam overlay */
+}

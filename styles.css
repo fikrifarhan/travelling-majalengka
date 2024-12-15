@@ -1,0 +1,127 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  /* font-family: "Lora", serif; */
+  line-height: 1.6;
+  color: #333;
+}
+
+h1, h2, h3 {
+  text-align: center;
+  font-family: "Lora", serif;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 8px;
+}
+
+/* Header Section */
+.hero {
+  background: url('img/hero-background.jpg') no-repeat center center/cover;
+  height: 50vh;
+  position: relative;
+  color: rgb(255, 255, 255);
+}
+
+.hero .overlay {
+  background: rgba(255, 2, 2, 0.5);
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0 20px;
+}
+
+.hero h1 {
+  font-size: 3rem;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin-top: 10px;
+}
+
+/* Best View Section */
+.best-view {
+  padding: 50px 20px;
+  background: #f9f9f9;
+}
+
+.best-view .cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.best-view .card {
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 15px;
+  width: 250px;
+  text-align: center;
+}
+
+/* Top Destinations Section */
+.top-destinations {
+  padding: 50px 20px;
+}
+
+.top-destinations .cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+/* Description Section */
+.description {
+  padding: 50px 20px;
+  text-align: center;
+  background: #eef5ff;
+}
+
+.description p {
+  max-width: 600px;
+  margin: 0 auto;
+  font-size: 1.1rem;
+}
+
+/* Footer Section */
+footer {
+  padding: 20px;
+  text-align: center;
+  background: #333;
+  color: white;
+}
+
+footer form {
+  margin-top: 10px;
+}
+
+footer input[type="email"] {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+footer button {
+  padding: 10px 15px;
+  border: none;
+  background: #ff5722;
+  color: rgb(255, 255, 255);
+  border-radius: 5px;
+  cursor: pointer;
+}
