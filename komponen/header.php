@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-lg bg-body-tertiary">
+<nav class="navbar navbar-expand-lg bg-body-tertiary d-print-none">
   <div class="container-fluid">
     <a class="navbar-brand" href="#">Majalengka Travelling</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -13,6 +13,9 @@
         <li class="nav-item">
           <a class="nav-link active" href="index.php?aksi=pemesanan" aria-current="true">Pemesanan</a>
         </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="index.php?aksi=daftar" aria-current="true">Daftar Pesanan</a>
+        </li>
       </ul>
       <form class="d-flex" role="search">
         <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
@@ -22,7 +25,7 @@
   </div>
 </nav>
 
-<div class="jumbotron text-center" style="background-image: url('assets/images/panyau.jpg');background-repeat: no-repeat;background-size: cover;">
+<div class="jumbotron text-center d-print-none" style="background-image: url('assets/images/panyau.jpg');background-repeat: no-repeat;background-size: cover;">
   <p>THE BEST DESTINATIONS OF MAJALENGKA</p>
   <h1 class="display-4" style="font-family: 'Lora', serif;">Majalengka</h1>
   <h1 class="display-4" style="font-family: 'Lora', serif;">Travelling </h1>
